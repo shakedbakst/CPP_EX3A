@@ -200,48 +200,4 @@ TEST_CASE("Mixed arithmetic operations") {
     CHECK(f3.getDenominator() == 3);
 }
 
-/*TEST_CASE("Mixed arithmetic operations") {
-    Fraction f1(1, 2), f2(2, 3), f3;
-    float f = 0.5;
-    f3 = f1 + f;
-    CHECK(f3.getNumerator() == 3);
-    CHECK(f3.getDenominator() == 2);
-
-    f3 = f1 - f;
-    CHECK(f3.getNumerator() == 0);
-    CHECK(f3.getDenominator() == 2);
-
-    f3 = f1 * f;
-    CHECK(f3.getNumerator() == 1);
-    CHECK(f3.getDenominator() == 4);
-
-    f3 = f1 / f;
-    CHECK(f3.getNumerator() == 1);
-    CHECK(f3.getDenominator() == 1);
-
-    f3 = f * f1;
-    CHECK(f3.getNumerator() == 1);
-    CHECK(f3.getDenominator() == 1);
-
-    f3 = f2 + f;
-    CHECK(f3.getNumerator() == 8);
-    CHECK(f3.getDenominator() == 3);
-
-    f3 = f2 - f;
-    CHECK(f3.getNumerator() == 1);
-    CHECK(f3.getDenominator() == 3);
-
-    f3 = f2 * f;
-    CHECK(f3.getNumerator() == 1);
-    CHECK(f3.getDenominator() == 3);
-
-    f3 = f2 / f;
-    CHECK(f3.getNumerator() == 2);
-    CHECK(f3.getDenominator() == 1);
-
-    f3 = f * f2;
-    CHECK(f3.getNumerator() == 2);
-    CHECK(f3.getDenominator() == 3);
-}*/
-
 
